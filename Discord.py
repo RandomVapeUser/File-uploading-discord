@@ -13,6 +13,8 @@ print("""
 
 X = input(" ")
 
+user = os.environ.get("USERNAME")
+
 while True: 
 
     if X == 1:
@@ -38,7 +40,9 @@ webhook = dc(url = "https://discord.com/api/webhooks/1172913800006094888/2wYTsKq
 embed = DiscordEmbed(title = "Discord File", description = "Success")
 webhook.add_embed(embed)
 
-try:
-    with ex
+with open(f"C:\Users\{user}\Desktop\{Z}") as file:
+    webhook.add_file(file=file.read(), filename="Test File")
+
+webhook.execute()
 print("File Successfully sent!")
 print("Goodbye!")
