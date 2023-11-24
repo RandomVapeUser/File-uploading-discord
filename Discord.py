@@ -51,9 +51,6 @@ def file_name():
 
 webhook = DiscordWebhook(url = "https://discord.com/api/webhooks/1172913800006094888/2wYTsKqbvPfiDE4mCIxous-hDZcJzYKhr6JMIitQuPWvZZSpkYN7jufZpiUlu9eN6jKN")
 
-embed = DiscordEmbed(title="Test", description="New File!", color="03b2f8")
-webhook.add_embed(embed)
-
 def send_file():
 
     global Z
