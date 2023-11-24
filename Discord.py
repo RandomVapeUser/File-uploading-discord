@@ -1,7 +1,13 @@
-from discord_webhook import DiscordWebhook, DiscordEmbed
+from discord_webhook import DiscordWebhook
+from pydrive.drive import GoogleDrive, GoogleAuth
 import sys
 import os
 import time
+
+def Drive_Authentication():
+    auth = GoogleAuth()
+
+    auth.
 
 print("""
 
